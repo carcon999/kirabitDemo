@@ -79,6 +79,9 @@ void MMA8653::begin(bool highres, uint8_t scale, uint8_t sample)
 
 ### 7. 残像の変更方法
 ソースコードの「test_image.h」を変更することで好きな画像に変更することができます。
+画像データを作成するツール（Webサイト）を作成しました。このサイトでソースコードが自動生成されます。
+参考にしてください。画像は、16色に減色されます。
+https://s3-ap-northeast-1.amazonaws.com/microbitble/imagecreater.html
 
 # kirakira:bitとは？
 
