@@ -3,6 +3,11 @@
  * 
  * こちらのフリー素材を利用させていただきました。
  * https://hpgpixer.jp/image_icons/food/icon_foods_fruit.html
+ *
+ * データ作成ツールを作成しました。
+ * 下記のサイトで画像(*.bmp, *.png)からデータを生成することができます。
+ * お気に入りのデータでお試しください。
+ * https://s3-ap-northeast-1.amazonaws.com/microbitble/imagecreater.html
  * 
  */
 #ifndef test_image_h
