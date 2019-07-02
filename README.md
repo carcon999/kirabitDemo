@@ -3,6 +3,9 @@
 プログラムを実行するいは、別途[kirakira:bit](https://www.switch-science.com/catalog/3923/)が必要です。
 プログラムは、Arduino IDEを利用して作られています。
 
+**2019/07/03: 追記**
+**micro:bitのV1.5では動作しない問題を対応できるようにしました。V1.5, V1.3Bで動作確認しています。**
+
 ![Image](https://raw.githubusercontent.com/carcon999/kirabitDemo/master/img/cherry2.jpg)
 
 # ビルド方法
@@ -20,6 +23,8 @@ https://qiita.com/ht_deko/items/96c20b76b101c4065187
 * Adafruit GFX Library by Adafruit V1.2.8
 * BLEPeripheral by Sandeep Mistry V0.4.0
 * Adafruit NeoPixel by Adafruit V1.1.6
+* Adafruit LSM303DLHC by Adafruit V1.0.3 <- **2019/07/03: 追記**
+* Adafruit Unified Sensor by Adafruit V1.0.3 <- **2019/07/03: 追記**
 
 追加の方法は、「スケッチ」→「ライブラリをインクルード」→「ライブラリを管理」を選択し、上記を追加します。
 
